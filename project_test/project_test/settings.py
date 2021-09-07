@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+w7)ke%ny_)94oar12zko97ovqvcr0#ht4&geo#$ybm$xswmvp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['192.168.29.21', '127.0.0.1']
 
@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['192.168.29.21', '127.0.0.1']
 
 INSTALLED_APPS = [
     'app_test',
+    'Birthday',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
