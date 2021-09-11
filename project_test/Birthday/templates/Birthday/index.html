@@ -4,6 +4,12 @@
         <title>Is it my birthday?</title>
     </head>
     <body>
-        <h1>{{ value }}</h1>
+        <h1>
+            {% if value %}
+                Yes
+            {% else %}
+                No
+            {% endif %}
+        </h1>
     </body>
 </html>

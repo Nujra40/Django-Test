@@ -21,5 +21,6 @@ urlpatterns = [
     path('', views.index),
     path('admin/', admin.site.urls),
     path('app_test/', include("app_test.urls")),
-    path('Birthday/', include("Birthday.urls"))
+    path('Birthday/', include("Birthday.urls")),
+    path('tasks/', include('tasks.urls'))
 ]
